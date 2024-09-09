@@ -1,0 +1,25 @@
+{
+  "name": "student_crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dst/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "It is A Type Script CRUD application, such as \"Student Manageme\" that involves asynchronous operations, like fetching data from an API.\r With proper request and response models.\r Include dependency between classes and implement dependency injection.\r Implement asynchronous operations using Promises or async/await, ensuring proper error handling.",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
